@@ -17,7 +17,7 @@ TODO: Talk about what git is here
 1. Click the small `Skip this step` link at the bottom of the form
 1. Open your email inbox, find the email from GitHub and click the link to verify your email address
 
-## Install git desktop client
+## Install GitHub Desktop
 
 When working with git, it's possible to use the command line, a desktop client or even a web browser.
 
@@ -47,11 +47,11 @@ TODO: Info about repository
 1. Leave the remaining fields as default
 1. Click `Create Repository`
 
-## Download an IDE
+## Download Atom code editor
 
 Now that you have a code repository, we can finally start writing some code.
 
-While it is possible to edit our code using only Notepad, using an IDE (Integrated Development Environment) will make our lives MUCH more enjoyable.
+While it is possible to edit our code using only Notepad, using a code editor or IDE (Integrated Development Environment) will make our lives MUCH more enjoyable.
 
 Some benefits of IDEs:
 
@@ -60,13 +60,13 @@ Some benefits of IDEs:
 - Debugging
 - Colour themes
 
-There are many IDEs to choose from - Atom, Sublime, Visual Studio Code, WebStorm. Today we're working with Atom as it's open source, cross platform and well suited to frontend development.
+There are many IDEs to choose from - Atom, Sublime, Visual Studio Code, WebStorm. Today we're working with Atom as it's open source, easy to get started with and well suited to frontend development.
 
 1. Go to https://atom.io/
 1. Click the download button
 1. Once download is complete, extract zip file and install
 
-## Create index.html
+## Create web page
 
 Now we have our IDE setup, it's time to create our first web page and write some HTML.
 
@@ -119,7 +119,7 @@ The snippet has generated the outline for a HTML document:
 - `<meta charset="utf-8">` tells your browser the web page is written using UTF-8 encoding
 - `<title>` sets the title of the web page
 
-## Preview index.html
+## Preview web page
 
 Now that we have our first web page created, let's preview it in a web browser.
 
@@ -145,11 +145,11 @@ And after:
 
 Switch back to your web browser and refresh the page. The browser tab title will now match the title content.
 
-## Add some content
+## Add web page content
 
 TODO: Add Wendi's content here
 
-## Walk through browser dev tools
+## Browser dev tools
 
 All modern browsers offer a collection of inbuilt developer tools which assist in helping frontend developers in building, testing and debugging web pages.
 
@@ -160,12 +160,44 @@ This section assumes you are using Google Chrome however Firefox, Safari, Opera,
 1. From the developer tools overlay, select the `Elements` tab
 1. The `Elements` tab displays the web page HTML
 1. Try hovering over HTML elements in the `Elements` tab to see the corresponding elements highlighted on the page
-1. Try editing or deleting HTML elements in the `Elements` tab to see the corresponding elements updated in real time on the page
+1. Try adding, editing or deleting HTML elements in the `Elements` tab to see the corresponding elements updated in real time on the page
 
 This is a very small part of what the the developer tools can do and we will continue digging deeper into these as the course progresses.
 
-## Commit to repo and push changes
+## Commit and push
 
-## View web site
+Now `index.html` has been created and some content added, but it still doesn't exist in our GitHub repository yet.
 
-https://username.github.io
+For this to happen we need to `commit` our changes to the repository and `push` these to GitHub.
+
+1. Switch back to `GitHub Desktop`
+1. The file tree view on the left shows `1 changed file` with `index.html` being displayed
+1. Below this, enter a `Summary` and `Description` to describe the changes contained in this commit and then click `Commit to master`
+1. The file tree view now shows `0 changed files`
+1. Click the `Publish repository` button to publish the committed changes to GitHub
+1. In the popup, make sure `Keep this code private` is unselected and click `Publish Repository`
+
+## View repository on GitHub website
+
+The repository has been successfully published meaning you can now view the files on the GitHub website.
+
+1. Launch a new web browser window
+1. Go to https://github.com/
+1. Click `Sign in`
+1. Enter your username and password and click `Sign in`
+1. From the right hand menu under `Your repositories` select the published repository
+1. The repository contents are now visible, select `index.html` to view the file content online
+
+## GitHub pages
+
+An added feature when using GitHub is [GitHub Pages.](https://pages.github.com/)
+
+By naming our repository `USERNAME.github.io` it is automatically hosted by GitHub Pages.
+
+Launch a new web browser window and go to https://USERNAME.github.io
+
+## End
+
+We've setup our dev environment, added some basic HTML and published this to a live website people can view online.
+
+Not bad for (hopefully) an hour or so effort!

@@ -14,10 +14,16 @@ Dev environment setup
 
 HTML deep dive
 
+[Tutorial](https://github.com/BerlinCodeClub/build-a-website/tree/master/week-2)
+
 ## Week 3
 
 Styling with CSS
 
+[Tutorial](https://github.com/BerlinCodeClub/build-a-website/tree/master/week-3)
+
 ## Week 4
 
 Javascript
+
+[Tutorial](https://github.com/BerlinCodeClub/build-a-website/tree/master/week-4)

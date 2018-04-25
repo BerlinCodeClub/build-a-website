@@ -225,9 +225,11 @@ Switch back to the web browser and refresh again. The heading and summary text a
 
 ## GitHub pages
 
-Launch a new web browser window and go to https://USERNAME.github.io
+Launch a new web browser window and go to https://USERNAME.github.io/index.html
 
 Our web page is now online 🤘
+
+## Browser dev tools demo
 
 ## More complicated HTML/CSS
 

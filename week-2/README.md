@@ -247,6 +247,8 @@ Go to examples section, copy and paste HTML into your page.
 
 ### CSS
 
+Go to examples section, copy and paste these into your stylesheet.
+
 - [Background colour](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
 - [Border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
 - [Font size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)

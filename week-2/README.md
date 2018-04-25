@@ -51,6 +51,10 @@ Welcome to week two!
 </html>
 ````
 
+## HTML quick dive
+
+https://internetingishard.com/html-and-css/basic-web-pages/ 
+
 ## Preview webpage
 
 1. In Atom, right click on `index.html` and select `Show in Finder`
@@ -64,7 +68,7 @@ The website is pretty plain and boring, let's add an image to spice it up a bit.
 
 1. Open [this image](https://github.com/BerlinCodeClub/BerlinCodeClub.github.io/raw/master/me.jpg) and save it to the root of your repository
 1. Switch back to `Atom`, click on `index.html` to open it
-1. Above the `h1` tag, copy and paste the following HTML:
+1. Above the `h1` tag, copy & paste the following HTML:
 
 `<img src="me.jpg">`
 
@@ -99,7 +103,7 @@ Switch back to the web browser with the website open and refresh to see the upda
 People are going to love this website, we should give them some way of contacting you...
 
 1. Switch back to `Atom`, and open `index.html` once again
-1. Below the closing tag of the interests list - `</ul>` - insert the following HTML:
+1. Below the closing tag of the interests list - `</ul>` - copy & paste the following HTML:
 
 ````
 <div>
@@ -142,6 +146,74 @@ The updated HTML should now look like:
 
 Switch back to the web browser and refresh again.
 
+## Add CSS stylesheet
+
+1. Open `Atom`
+1. From the file tree view, right click on the repository name and select `New file`
+1. Enter `style.css` and hit `Enter`
+1. Open `style.css` and copy & paste the following CSS:
+
+````
+h1 { 
+  color: darkolivegreen; 
+}
+
+.summary-text {
+  color: peachpuff;
+}
+````
+
+Switch back to the web browser and refresh again - nothing happened?
+
+This is because we still need to include this CSS stylesheet in our HTML page.
+
+1. In `Atom`, open `index.html` and copy & paste the following HTML under our `<title>` tag:
+
+`<link rel="stylesheet" href="style.css">`
+
+The updated HTML should now look like:
+
+````
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Billy Bob's website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="me.jpg">
+    <h1>Billy Bob</h1>
+    <h2>Summary</h2>
+    <p>Hi! I'm Billy Bob and this is my website.</p>
+    <h2>Interests</h2>
+    <ul>
+      <li>Sports</li>
+      <li>Nintendo</li>
+      <li>Nuclear physics</li>
+    </ul>
+    <div>
+      <form>
+        <input type="text" placeholder="Type your message">
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </body>
+</html>
+````
+
+Switch back to the web browser and refresh again. The main heading - `<h1>` in our code - is now `dark olive green` but we don't see anything `peach puff` in colour...
+
+This is because `h1` in our CSS will be applied to every `<h1>` element in our HTML but `.summary-text` is targeting the element CSS class. We haven't added any CSS classes to our HTML yet so this means this style won't be applied.
+
+Let's add a class to our `<p>` tag by adding `class="summary-text"` to the opening tag. It should now look like this:
+
+`<p class="summary-text">Hi! I'm Billy Bob and this is my website.</p>`
+
+Switch back to the web browser and refresh again. The heading and summary text are both coloured.
+
+[This page](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) details using colours in HTML & CSS further.
+
 ## Commit and push
 
 1. Switch back to `GitHub Desktop`
@@ -157,11 +229,26 @@ Launch a new web browser window and go to https://USERNAME.github.io
 
 Our web page is now online 🤘
 
-- Get HTML template
-- Add header image
-- Add sign up form
-- Add cards
-- CSS intro
-- Playtime
+## Hack around
 
-HTTP end to end demo?
+So we've added HTML with some styling and deployed this to the cloud.
+
+Spend some time experimenting with different HTML & CSS combinations on your website.
+
+Person with the ugliest website wins.
+
+### HTML elements
+
+Go to examples section, copy and paste HTML into your page.
+
+- [Hyperlink](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+- [Table](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+- [Drop down](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+
+### CSS
+
+- [Background colour](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+- [Border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+- [Font size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+- [Font weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
+- [Text decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)

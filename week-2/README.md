@@ -229,6 +229,10 @@ Launch a new web browser window and go to https://USERNAME.github.io
 
 Our web page is now online 🤘
 
+## More complicated HTML/CSS
+
+http://cssdeck.com/labs/doff941m
+
 ## Hack around
 
 So we've added HTML with some styling and deployed this to the cloud.

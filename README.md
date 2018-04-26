@@ -14,6 +14,7 @@ Dev environment setup
 
 HTML deep dive
 
+[Slides](https://docs.google.com/presentation/d/17BsSs9WbIYBbauEsjQLPbrs4ih1l8f6FP_9ufdhhdVI/edit?usp=sharing)
 [Tutorial](https://github.com/BerlinCodeClub/build-a-website/tree/master/week-2)
 
 ## Week 3

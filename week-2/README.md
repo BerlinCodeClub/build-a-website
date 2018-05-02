@@ -40,13 +40,6 @@ Welcome to week two!
       <li>Nintendo</li>
       <li>Nuclear physics</li>
     </ul>
-    <h2>Contact me</h2>
-    <div>
-      <form>
-        <input type="text" placeholder="Type your message">
-        <input type="submit" value="Send">
-      </form>
-    </div>
   </body>
 </html>
 ````
@@ -106,6 +99,7 @@ People are going to love this website, we should give them some way of contactin
 1. Below the closing tag of the interests list - `</ul>` - copy & paste the following HTML:
 
 ````
+<h2>Contact me</h2>
 <div>
   <form>
     <input type="text" placeholder="Type your message">
@@ -134,6 +128,7 @@ The updated HTML should now look like:
       <li>Nintendo</li>
       <li>Nuclear physics</li>
     </ul>
+    <h2>Contact me</h2>
     <div>
       <form>
         <input type="text" placeholder="Type your message">
@@ -192,6 +187,7 @@ The updated HTML should now look like:
       <li>Nintendo</li>
       <li>Nuclear physics</li>
     </ul>
+    <h2>Contact me</h2>
     <div>
       <form>
         <input type="text" placeholder="Type your message">

@@ -18,6 +18,7 @@ HTML & CSS intro
 
 ## Week 3
 
+- [Slides](https://docs.google.com/presentation/d/1VprtEhJ8_7-oTsc9M1AsAiWInSA2dEKzYC9wMlqalVU/edit?usp=sharing)
 - [Tutorial](https://github.com/BerlinCodeClub/build-a-website/tree/master/week-3)
 
 ## Week 4

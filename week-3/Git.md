@@ -21,4 +21,10 @@
 
 - Applications built on top of git
 - All use git under the covers
-- Provide extra functionality like UI, code review, continuous integration (CI)
+- Provide extra functionality like UI, pull requests, code review, continuous integration (CI)
+
+## Helpful links
+
+(Why we should use git - puts git into context of different teams eg design, product etc)[https://www.atlassian.com/git/tutorials/why-git]
+
+(Online 15 minute git tutorial)[https://try.github.io/]

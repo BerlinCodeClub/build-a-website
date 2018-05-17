@@ -123,3 +123,8 @@ Add "id" attributes to more elements and do stuff with them when the button is c
 Try to add another button with a separate event listener.
 
 **Hint:** You can change the class of elements with JavaScript like this: `document.getElementById("myElement").className = "summary-text"`. If you have nice styles for a class in your CSS file, you can apply them all together with JavaScript like that.
+
+## Learning material
+
+- **[JavaScript for Absolute Beginners workshop](http://opentechschool.github.io/js-beginners-1/)** Learn the basics of the JavaScript programming language with excercises in the browser (parts of our tutorial are heaviliy inpired by its first part)
+- **[JavaScript for Cats](http://jsforcats.com/)** Highly recommended if you think you are a cat and you enjoyed the interactive console part of our tutorial!
